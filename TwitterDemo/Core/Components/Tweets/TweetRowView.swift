@@ -18,7 +18,7 @@ struct TweetRowView: View {
                     .clipShape(Circle())
                     .aspectRatio(contentMode: .fill)
                     .frame(width: 56, height: 56)
-                  Text("Test")
+                
                   
                 
                     
