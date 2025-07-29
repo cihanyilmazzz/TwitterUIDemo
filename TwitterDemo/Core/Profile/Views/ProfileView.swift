@@ -111,33 +111,13 @@ extension ProfileView {
                 HStack {
                     Image(systemName: "link")
                         
-                    Text("www.aragorn.com")
+                    Text("lotr.com")
                 }
             }
             .font(.caption)
             .foregroundStyle(Color.gray)
             
-            HStack(spacing: 20) {
-                HStack(spacing: 4) {
-                    Text("24")
-                        .font(.headline)
-                        .bold()
-                        
-                    Text("Following")
-                        .font(.caption)
-                        .foregroundStyle(.gray)
-                }
-                
-                HStack(spacing: 4) {
-                    Text("7.4M")
-                        .font(.headline)
-                        .bold()
-                        
-                    Text("Followers")
-                        .font(.caption)
-                        .foregroundStyle(.gray)
-                }
-            }
+            UserStatsView()
             .padding(.top, 12)
         }
         .padding(.horizontal)
