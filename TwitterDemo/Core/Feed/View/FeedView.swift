@@ -31,7 +31,7 @@ struct FeedView: View {
                     .offset(x:2, y: -20)
                     .fullScreenCover(isPresented: $showNewTweetView) {
                         NewtweetView()
-                    }
+                    } 
             }
         }
     }
